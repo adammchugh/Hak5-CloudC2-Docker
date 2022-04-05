@@ -1,4 +1,4 @@
-FROM ubuntu:bionic as baseos
+FROM ubuntu:18.04 as baseos
 MAINTAINER adammchugh <adam@mchughsecurity.com>
 #
 WORKDIR /app
