@@ -1,6 +1,7 @@
-# Version 0.0.1
+# Version 1.0.0
 
 Initial release.
 
 ## What's New?
-* Initial release
+* Forked from https://gitlab.com/faithfulst3ward/cloudc2docker
+* Restructured into docker-compose package

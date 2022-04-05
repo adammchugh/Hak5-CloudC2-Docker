@@ -1,0 +1,16 @@
+---
+version: "3"
+
+services:
+  hak5-cloudc2:
+    image: hak5-cloudc2:latest
+    restart: on-failure
+    ports:
+      - "8080:8080"
+      - "2022:2022"
+    build: .
+    volumes:
+      - cloudc2:/app
+
+volumes:
+  cloudc2:

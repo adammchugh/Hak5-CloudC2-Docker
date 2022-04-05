@@ -1,5 +1,5 @@
 FROM ubuntu:bionic as baseos
-MAINTAINER faithfulst3ward <faithfulst3ward@protonmail.com>
+MAINTAINER adammchugh <adam@mchughsecurity.com>
 #
 WORKDIR /app
 #
