@@ -2,12 +2,7 @@ name: Docker-compose Deploy
 on:
   push:
     branches:
-    - development
-    - features/**
-    - dependabot/**
-  pull_request:
-    branches:
-    - main
+      - 'master'
 
 jobs:
   docker:
